@@ -1,8 +1,5 @@
 /**
-* Template Name: Medilab - v4.7.1
-* Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Author: WilyDev
 */
 (function() {
   "use strict";

@@ -1,14 +1,14 @@
 /*!
   * Bootstrap v5.1.3 (https://getbootstrap.com/)
   * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
-  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  * Author: WilyDev
   */
 import * as Popper from '@popperjs/core';
 
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): util/index.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 const MAX_UID = 1000000;
@@ -319,7 +319,7 @@ const getNextActiveElement = (list, activeElement, shouldGetNext, isCycleAllowed
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): dom/event-handler.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 /**
@@ -607,7 +607,7 @@ const EventHandler = {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): dom/data.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 
@@ -661,7 +661,7 @@ const Data = {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): base-component.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 /**
@@ -727,7 +727,7 @@ class BaseComponent {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): util/component-functions.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 
@@ -753,7 +753,7 @@ const enableDismissTrigger = (component, method = 'hide') => {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): alert.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 /**
@@ -842,7 +842,7 @@ defineJQueryPlugin(Alert);
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): button.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 /**
@@ -913,7 +913,7 @@ defineJQueryPlugin(Button);
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): dom/manipulator.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 function normalizeData(val) {
@@ -987,7 +987,7 @@ const Manipulator = {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): dom/selector-engine.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 const NODE_TEXT = 3;
@@ -1057,7 +1057,7 @@ const SelectorEngine = {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): carousel.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 /**
@@ -1606,7 +1606,7 @@ defineJQueryPlugin(Carousel);
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): collapse.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 /**
@@ -1925,7 +1925,7 @@ defineJQueryPlugin(Collapse);
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): dropdown.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 /**
@@ -2387,7 +2387,7 @@ defineJQueryPlugin(Dropdown);
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): util/scrollBar.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 const SELECTOR_FIXED_CONTENT = '.fixed-top, .fixed-bottom, .is-fixed, .sticky-top';
@@ -2491,7 +2491,7 @@ class ScrollBarHelper {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): util/backdrop.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 const Default$7 = {
@@ -2615,7 +2615,7 @@ class Backdrop {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): util/focustrap.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 const Default$6 = {
@@ -2718,7 +2718,7 @@ class FocusTrap {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): modal.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 /**
@@ -3147,7 +3147,7 @@ defineJQueryPlugin(Modal);
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): offcanvas.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 /**
@@ -3403,7 +3403,7 @@ defineJQueryPlugin(Offcanvas);
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): util/sanitizer.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 const uriAttributes = new Set(['background', 'cite', 'href', 'itemtype', 'longdesc', 'poster', 'src', 'xlink:href']);
@@ -3515,7 +3515,7 @@ function sanitizeHtml(unsafeHtml, allowList, sanitizeFn) {
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): tooltip.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 /**
@@ -4225,7 +4225,7 @@ defineJQueryPlugin(Tooltip);
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): popover.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 /**
@@ -4335,7 +4335,7 @@ defineJQueryPlugin(Popover);
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): scrollspy.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 /**
@@ -4570,7 +4570,7 @@ defineJQueryPlugin(ScrollSpy);
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): tab.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 /**
@@ -4768,7 +4768,7 @@ defineJQueryPlugin(Tab);
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v5.1.3): toast.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Author: WilyDev
  * --------------------------------------------------------------------------
  */
 /**
